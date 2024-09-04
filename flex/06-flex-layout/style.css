@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
 body {
   height: 100vh;
@@ -28,22 +28,24 @@ input {
   width: 400px;
 }
 
-a{
+a {
   text-decoration: none;
   color: grey;
 }
 
-li{
+li {
   list-style: none;
 }
 
-.header, .footer{
+.header,
+.footer {
   display: flex;
   justify-content: space-between;
   padding: 8px;
 }
 
-.left-links, .right-links{
+.left-links,
+.right-links {
   display: flex;
   gap: 8px;
   margin: 0;
@@ -51,7 +53,7 @@ li{
   gap: 16px;
 }
 
-.content{
+.content {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -60,6 +62,6 @@ li{
   gap: 16px;
 }
 
-.footer{
+.footer {
   background-color: #eeeeee;
 }
